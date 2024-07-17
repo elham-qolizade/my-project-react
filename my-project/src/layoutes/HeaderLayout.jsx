@@ -5,7 +5,7 @@ export default function HeaderLayout() {
     return (
         <div className='navbar'>
             <div className='logo-img'>
-                <img src={logo} alt="" />
+                <img className='logo' src={logo} alt="" />
             </div>
             <div className='menuList'>
                 <Link to='/Features'>Features</Link>
