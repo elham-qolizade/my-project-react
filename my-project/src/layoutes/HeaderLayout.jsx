@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import logo from '../assets/image/logo.svg'
 export default function HeaderLayout() {
     return (
         <div className='navbar'>
             <div className='logo-img'>
-                <img src="../assets/image/logo.svg" alt="" />
+                <img src={logo} alt="" />
             </div>
             <div className='menuList'>
                 <Link to='/Features'>Features</Link>
