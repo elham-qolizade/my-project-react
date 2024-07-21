@@ -11,12 +11,9 @@ function App() {
         <HeaderLayout />
         <Routes>
           <Route path='/' element={<Home />} />
-
         </Routes>
         <FooterLayouts />
       </Router>
-
-
     </>
   )
 }
