@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import { navbarData } from './NavbarData';
+import { navbarData } from '../helpers/NavbarData';
 import { RiMenuLine } from "react-icons/ri";
 import logo from '../assets/image/logo.svg'
 import { Link } from 'react-router-dom'
