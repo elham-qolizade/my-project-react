@@ -6,12 +6,12 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 export default function FooterLayouts() {
     return (
-        <div className='text-white bg-black p-[8%] flex flex-row  justify-around '>
+        <div className='text-white bg-black p-[8%] flex lg:flex-row sm:gap-[20px] mobile:gap-[20px] sm:items-center md:items-center md:flex-row lg:justify-around  md:justify-around sm:justify-center mobile:justify-center sm:flex-col mobile:flex-col '>
 
             <div>
                 <img src={logo} alt="" />
             </div>
-            <div className='flex flex-row gap-[28%]'>
+            <div className='flex lg:flex-row md:flex-row lg:gap-[28%] sm:gap-[10px] mobile:gap-[10px] sm:justify-center mobile:justify-center sm:flex-col  mobile:flex-col'>
 
                 <ul>
                     <span>Features</span>
