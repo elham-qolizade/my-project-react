@@ -6,35 +6,35 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 export default function FooterLayouts() {
     return (
-        <div className='text-white bg-black p-[8%] flex lg:flex-row sm:gap-[20px] mobile:gap-[20px] sm:items-center md:items-center md:flex-row lg:justify-around  md:justify-around sm:justify-center mobile:justify-center sm:flex-col mobile:flex-col '>
+        <div className='flex p-16 text-white bg-black lg:flex-row sm:gap-5 mobile:gap-5 sm:items-center md:items-center md:flex-row lg:justify-around md:justify-around mobile:items-center sm:justify-center mobile:justify-center sm:flex-col mobile:flex-col '>
 
             <div>
                 <img src={logo} alt="" />
             </div>
-            <div className='flex lg:flex-row md:flex-row lg:gap-[28%] sm:gap-[10px] mobile:gap-[10px] sm:justify-center mobile:justify-center sm:flex-col  mobile:flex-col'>
+            <div className='flex gap-20 lg:flex-row md:flex-row sm:justify-center mobile:justify-center sm:flex-col mobile:flex-col'>
 
-                <ul>
+                <ul className='flex flex-col gap-2'>
                     <span>Features</span>
                     <li>Link Shortening</li>
                     <li>Branded Links</li>
                     <li>Analytics</li>
                 </ul>
 
-                <ul>
+                <ul className='flex flex-col gap-2' >
                     <span>Resources</span>
                     <li>Blog</li>
                     <li>Developers</li>
                     <li>Support</li>
                 </ul>
 
-                <ul>
+                <ul className='flex flex-col gap-2'>
                     <span>Company</span>
                     <li>About</li>
                     <li>Our Team</li>
                     <li>Contact</li>
                 </ul>
             </div>
-            <div className='flex flex-row  gap-[10px]'>
+            <div className='flex flex-row  md:mt-3 sm:mt-3 mobile:mt-3 gap-[10px]'>
                 <FaInstagram className='icon' />
                 <FaPinterestP className='icon' />
                 <FaFacebookSquare className='icon' />

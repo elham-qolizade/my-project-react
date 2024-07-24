@@ -4,44 +4,44 @@ import customize from '../assets/image/icon-fully-customizable.svg'
 import recognation from '../assets/image/icon-brand-recognition.svg'
 export default function StaticBanner() {
     return (
-        <div className='bg-[#eff0f5] lg:mt-[6%]  sm:mt-[10%]'>
+        <div className='bg-[#eff0f5]  lg:mt-20 md:mt-16  sm:mt-14 mobile:mt-12'>
 
-            <div className='lg:pt-[10%] sm:pb-[10%] sm:pt-[15%] lg:pb-[5%] px-[10%] flex  items-center justify-center text-center flex-col'>
+            <div className='flex flex-col items-center justify-center pt-32 pb-20 text-center '>
 
-                <h2 className='text-[#35323e] font-bold text-[40px]'>Advanced Statistics</h2>
-                <p className='py-[1%] text-gray-500'>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+                <h2 className='text-[#35323e] font-bold lg:text-5xl sm:text-3xl '>Advanced Statistics</h2>
+                <p className='py-2 text-gray-500 lg:text-lg sm:text-base mobile:text-sm'>Track how your links are performing across the web with our advanced statistics dashboard.</p>
             </div>
-            <div className='lg:pb-[13%] sm:pb-[18%]'>
-                <ul className='flex lg:flex-row sm:flex-col  lg:gap-0 sm:gap-[13px] sm:px-[27%] lg:px-[10%] pr-[11%]'>
-                    <li className='bg-white lg:text-justify h-[260px] pb-[25%] sm:text-center rounded-[3px]  px-[2%] flex flex-col  gap-[10px]  ' >
+            <div className='lg:pb-32 sm:pb-28 mobile:pb-20'>
+                <ul className='flex flex-col items-center justify-center lg:px-10 lg:flex-row lg:items-start'>
+                    <li className='  relative flex flex-col items-center lg:items-start max-w-[21.875rem]  px-9 lg:px-8 pb-10 lg:pb-9 pt-20 bg-white rounded-md' >
 
-                        <div className='  sm:w-[31%] lg:w-[32%] bg-[#3b3054] relative sm:left-[33%] lg:left-[5%] top-[-45px] py-[8%] px-[8%] rounded-full ' >
+                        <div className='p-6   absolute bg-[#3b3054]  top-[-2rem] flex items-center justify-center  rounded-full ' >
                             <img src={recognation} alt="" />
                         </div>
-                        <h2 className='text-[20px] font-medium text-black '>Brand Recognition</h2>
-                        <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.</p>
+                        <h2 className='text-xl font-bold text-black'>Brand Recognition</h2>
+                        <p className='mt-5 leading-6 text-center lg:leading-relaxed lg:text-left' >Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.</p>
                     </li>
-                    <li className=' bg-[#2acfcf] relative w-[10%] h-[9px] top-[195px]'></li>
-                    <li className='lg:text-justify h-[270px] sm:text-center pb-[7%] gap-[10px] relative  top-[30px] rounded-[5px] bg-white flex flex-col   px-[3%]'>
-                        <div className=' sm:w-[31%] lg:w-[32%] bg-[#3b3054] relative py-[8%] px-[8%] rounded-full top-[-16%] sm:left-[31%] lg:left-[-4%]' >
+                    <li className='   w-2 lg:w-[1.875rem] h-14 lg:h-2  lg:mt-[9.5rem] bg-[#2acfcf]'></li>
+                    <li className=' relative flex flex-col items-center lg:items-start max-w-[21.875rem] lg:mt-8 px-9 lg:px-8 pb-10 lg:pb-9 pt-20 bg-white rounded-md'>
+                        <div className='  absolute bg-[#3b3054]  top-[-2rem] flex items-center justify-center p-6 rounded-full' >
                             <img src={record} alt="" />
                         </div>
-                        <h2 className='text-[20px] font-medium text-black' >Detailed Records</h2>
-                        <p>Gain insights into who is clicking your links. Knowing when and where people with you content helps inform better decisions.</p>
+                        <h2 className='text-xl font-bold text-black' >Detailed Records</h2>
+                        <p className='mt-5 leading-6 text-center lg:leading-relaxed lg:text-left'>Gain insights into who is clicking your links. Knowing when and where people with you content helps inform better decisions.</p>
                     </li>
-                    <li className='bg-[#2acfcf] w-[10%] relative top-[182px] h-[9px]'></li>
-                    <li className=' lg:text-justify h-[270px] sm:text-center pb-[7%] gap-[10px] rounded-[2%] relative top-[90px] bg-white flex flex-col  px-[3%]'>
-                        <div className=' sm:w-[33%] lg:w-[35%] bg-[#3b3054] relative py-[8%] px-[8%] rounded-full top-[-22%] sm:left-[31%] lg:left-[-4%]'  >
+                    <li className='   w-2 lg:w-[1.875rem] h-14 lg:h-2  lg:mt-[9.5rem] bg-[#2acfcf]'></li>
+                    <li className=' lg:mt-16 relative flex flex-col items-center lg:items-start max-w-[21.875rem]  px-9 lg:px-8 pb-10 lg:pb-9 pt-20 bg-white rounded-md'>
+                        <div className='  absolute p-6 bg-[#3b3054]  top-[-2rem] flex items-center justify-center w-[5.5rem] h-[5.5rem] rounded-full'  >
                             <img src={customize} alt="" />
                         </div>
-                        <h2 className='text-[20px] font-medium text-black' >Fully Customizable</h2>
-                        <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+                        <h2 className='text-xl font-bold text-black' >Fully Customizable</h2>
+                        <p className='mt-5 leading-6 text-center lg:leading-relaxed lg:text-left'>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
                     </li>
                 </ul>
             </div>
-            <div className='boost-banner bg-[#3b3054] py-[3%] flex flex-col items-center justify-center'>
-                <h2 className='text-white lg:text-[40px] sm:text-[30px] font-bold ' >Boost your links today</h2>
-                <button className='text-white font-bold bg-[#2acfcf] lg:w-[14%] sm:w-[24%] py-[10px] rounded-[20px] mt-[3%]'>Get Startr </button>
+            <div className='boost-banner gap-5 bg-[#3b3054] py-14 flex flex-col items-center justify-center'>
+                <h2 className='font-bold text-white lg:text-5xl md:text-4xl sm:text-3xl mobile:text-lg ' >Boost your links today</h2>
+                <button className='text-white font-bold lg:text-lg md:text-bse sm:text-base mobile:text-sm bg-[#2acfcf] py-[10px] px-12 rounded-[20px] '>Get Startr </button>
             </div>
         </div>
     )
