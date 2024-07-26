@@ -13,11 +13,11 @@ export default function HeaderLayout() {
   };
 
   return (
-    <div className="container flex flex-row justify-around lg:items-center pt-7 ">
+    <div className="container flex flex-row items-center justify-between py-10 gap-11">
       <div className="logo-img">
         <img className="logo" src={logo} alt="" />
       </div>
-      <div className="flex flex-col lg:gap-14 lg:flex-row ">
+      <div className="flex flex-col items-center justify-between w-full text-white lg:flex-row ">
         <button
           className="flex justify-end rounded lg:hidden"
           onClick={showNav}
