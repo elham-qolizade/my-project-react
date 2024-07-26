@@ -13,7 +13,7 @@ export default function HeaderLayout() {
   };
 
   return (
-    <div className="container flex flex-row items-center justify-between py-10 gap-11">
+    <div className="container flex flex-row items-center justify-between p-10 gap-11">
       <div className="logo-img">
         <img className="logo" src={logo} alt="" />
       </div>
