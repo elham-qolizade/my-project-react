@@ -4,7 +4,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      'mobile': '375px',
+      'xs': '375px',
       // => @media (min-width: 375px) { ... }
       'sm': '576px',
       // => @media (min-width: 576px) { ... }
@@ -22,6 +22,9 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {},
+    container:{
+      center:true,
+    }
   },
   plugins: [],
 }

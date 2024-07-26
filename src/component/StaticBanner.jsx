@@ -4,17 +4,17 @@ import customize from "../assets/image/icon-fully-customizable.svg";
 import recognation from "../assets/image/icon-brand-recognition.svg";
 export default function StaticBanner() {
   return (
-    <div className="bg-[#eff0f5]  lg:mt-20 md:mt-16  sm:mt-14 mobile:mt-12">
+    <div className="bg-[#eff0f5]  container lg:mt-20 md:mt-16  sm:mt-14 xs:mt-12">
       <div className="flex flex-col items-center justify-center pt-32 pb-20 text-center ">
         <h2 className="text-[#35323e] font-bold lg:text-5xl sm:text-3xl ">
           Advanced Statistics
         </h2>
-        <p className="py-2 text-gray-500 lg:text-lg sm:text-base mobile:text-sm">
+        <p className="py-2 text-gray-500 lg:text-lg sm:text-base xs:text-sm">
           Track how your links are performing across the web with our advanced
           statistics dashboard.
         </p>
       </div>
-      <div className="lg:pb-32 sm:pb-28 mobile:pb-20">
+      <div className="lg:pb-32 sm:pb-28 xs:pb-20">
         <ul className="flex flex-col items-center justify-center lg:px-10 lg:flex-row lg:items-start">
           <li className="  relative flex flex-col items-center lg:items-start max-w-[21.875rem]  px-9 lg:px-8 pb-10 lg:pb-9 pt-20 bg-white rounded-md">
             <div className="p-6   absolute bg-[#3b3054]  top-[-2rem] flex items-center justify-center  rounded-full ">
